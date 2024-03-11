@@ -13,6 +13,8 @@
   --neutral-light-grey: #e4ded8;
   --neutral-wenge-brown: #5f574e;
   --neutral-dark-charcoal: #302d2c;
+
+  --pink: #fff7fc;
 }
 
 *,
@@ -37,6 +39,10 @@ body {
 p {
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+ul {
+  list-style: none;
 }
 
 .bgc-primary {
@@ -90,6 +96,11 @@ p {
 
 .title-description {
   color: var(--neutral-wenge-brown);
+}
+
+.preparation {
+  height: 17.8rem;
+  background-color: var(--pink);
 }
 
 /* Default values */
