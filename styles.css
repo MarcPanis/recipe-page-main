@@ -80,6 +80,13 @@ ul {
   margin-bottom: 2rem;
 }
 
+.heading-two {
+  font-size: 3rem;
+  font-family: "young serif";
+  font-weight: 500;
+  color: var(--color-nutmeg);
+}
+
 .omelette-image {
   height: 30rem;
   width: 65.6rem;
@@ -128,6 +135,8 @@ ul {
   left: 1rem;
   font-size: 1.6rem;
 }
+
+/* INGREDIENTS SECTION */
 
 /* Default values */
 .attribution {
