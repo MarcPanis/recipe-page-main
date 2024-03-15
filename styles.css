@@ -85,6 +85,7 @@ ul {
   font-family: "young serif";
   font-weight: 500;
   color: var(--color-nutmeg);
+  margin-bottom: 2rem;
 }
 
 .omelette-image {
@@ -136,6 +137,53 @@ ul {
   font-size: 1.6rem;
 }
 
+.ingredients-list {
+  list-style: square;
+  list-style-position: inside;
+}
+
+.ingredients-list li {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-nutmeg);
+}
+
+.ingredients-item {
+  position: relative;
+  left: 1rem;
+  font-size: 1.6rem;
+  color: var(--neutral-wenge-brown);
+}
+
+.ingredients-list li:last-child {
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  border-bottom: 0.1rem solid var(--neutral-light-grey);
+}
+
+.instructions-list {
+  list-style: none;
+  counter-reset: item;
+  list-style-position: inside;
+}
+
+.instructions-list li {
+  counter-increment: item;
+  margin-bottom: 1rem;
+}
+
+.instructions-list li:last-child {
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  border-bottom: 0.1rem solid var(--neutral-light-grey);
+}
+
+.instructions-list li::before {
+  margin-right: 1rem;
+  content: counter(item);
+  text-align: center;
+  display: inline-block;
+}
 /* INGREDIENTS SECTION */
 
 /* Default values */
