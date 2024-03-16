@@ -39,6 +39,7 @@ body {
 p {
   font-size: 1.6rem;
   font-weight: 400;
+  color: var(--neutral-wenge-brown);
 }
 
 ul {
@@ -185,6 +186,23 @@ ul {
   display: inline-block;
 }
 /* INGREDIENTS SECTION */
+
+table {
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 2rem;
+  color: var(--neutral-wenge-brown);
+}
+
+td {
+  border-bottom: var(--neutral-light-grey) solid 0.1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+tr td:nth-child(2) {
+  color: var(--color-nutmeg);
+}
 
 /* Default values */
 .attribution {
